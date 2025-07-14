@@ -6,7 +6,7 @@ Ref:http://www.ethps.m.u-tokyo.ac.jp/sas/index.cgi?section=13 一部改変
 ・SASの input 文で $ をつけると、「この変数は文字型（文字列）」という指定になる。
 ・trial_dataは、自動的にWORKライブラリに保存される「一時データセット」です。
 ・data trial_data;   ← 実際は "data work.trial_data;" と同じ意味
-
+・"sex $",必ず変数と$の間には空白をあける。空白でないと"sex$"という数値型の変数が作成される。
 
 /* データセットを作成する */
 
