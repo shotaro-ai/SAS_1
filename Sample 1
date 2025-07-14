@@ -37,6 +37,22 @@ datalines;
 ;
 run;
 
+/* データセットを表示する */
+proc print data=trial_data;
+run;
 
 
+/* データセットをgroupでソートする */
+proc sort data=trial_data;
+  by group;
+run;
+
+/* データセットをgradeでソートする */
+proc sort data = trial_data;
+by grade;
+run;
+
+/* データセットをもう一度表示する */
+proc print data = trial_data;
+run;
 
