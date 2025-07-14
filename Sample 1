@@ -1,6 +1,7 @@
 /* Clinical Trial Styled Sample Data - Based on Original */
 Ref:http://www.ethps.m.u-tokyo.ac.jp/sas/index.cgi?section=13 一部改変
 
+メモ
 ・input 文は、SASでデータセットを手入力で作るときに、変数（列）を定義するための文です。
 ・SASの input 文で $ をつけると、「この変数は文字型（文字列）」という指定になる。
 ・trial_dataは、自動的にWORKライブラリに保存される「一時データセット」です。
